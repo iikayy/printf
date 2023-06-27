@@ -22,9 +22,9 @@ precision *= 10;
 precision += format[curr_i] - '0';
 }
 else if (format[curr_i] == '*')
-{                       curr_i++;
+{   
+curr_i++;
 precision = va_arg(list, int);
-{
 break;
 }
 else
